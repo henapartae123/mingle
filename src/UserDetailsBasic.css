@@ -1,0 +1,61 @@
+.user-details-basic {
+  background-color: #9589af;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.form-wrapper {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  width: 70vh;
+  height: 70vh;
+  margin-top: 1rem;
+  padding-block: 0.25rem;
+  padding-inline: 3rem;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.form-wrapper form {
+  /* border: 1px solid; */
+}
+
+.form-wrapper form h2 {
+  font-size: 30px;
+  color: #1f1235;
+  margin-top: 1rem;
+  font-weight: 800;
+  font-style: "Courier New", Courier, monospace;
+}
+
+.form-wrapper fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.form-wrapper fieldset label {
+  font-weight: bold;
+  font-family: "Alkatra";
+}
+
+.form-wrapper fieldset input,
+textarea {
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  width: 15rem;
+  padding: 5px;
+}
+
+.form-wrapper button {
+  border: 1px lightgray;
+  border-radius: 5px;
+  background-color: #ff6e6c;
+  color: white;
+  font-size: medium;
+  letter-spacing: 0.3ch;
+  font-weight: bold;
+  font-family: "Alkatra";
+  float: right;
+}
