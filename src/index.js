@@ -4,8 +4,8 @@ import { RouterProvider } from "react-router-dom";
 import "./index.css";
 import router from "./router";
 import reportWebVitals from "./reportWebVitals";
-import { AuthContextProvider } from "./AuthContext";
-import { ChatContextProvider } from "./ChatContext";
+import { AuthContextProvider } from "./Contexts/AuthContext";
+import { ChatContextProvider } from "./Contexts/ChatContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

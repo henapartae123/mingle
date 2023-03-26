@@ -1,16 +1,16 @@
 import React from "react";
 import { createBrowserRouter } from "react-router-dom";
-import App from "./App";
-import Login from "./Login";
-import Register from "./Register";
-import Chats from "./Chats";
-import Browse from "./Browse";
-import Profile from "./Profile";
-import SetUp from "./SetUp";
-import UserDetails from "./UserDetails";
-import UserDetailsBasic from "./UserDetailsBasic";
-import UserDetailsPersonality from "./UserDetailsPersonality";
-import UserDetailsLifestyle from "./UserDetailsLifestyle";
+import App from "./App/App";
+import Login from "./Login/Login";
+import Register from "./Register/Register";
+import Chats from "./Chats/Chats";
+import Browse from "./Browse/Browse";
+import Profile from "./Profile/Profile";
+import SetUp from "./Setup/SetUp";
+import UserDetails from "./UserDetails/UserDetails";
+import UserDetailsBasic from "./UserDetails/UserDetailsBasic";
+import UserDetailsPersonality from "./UserDetails/UserDetailsPersonality";
+import UserDetailsLifestyle from "./UserDetails/UserDetailsLifestyle";
 
 const router = createBrowserRouter([
   {

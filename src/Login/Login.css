@@ -1,0 +1,72 @@
+.form-container {
+  background-color: #67568c;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-Wrapper {
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.form-container .form-Wrapper span {
+  display: flex;
+}
+
+.form-wrapp {
+  display: flex;
+  flex-direction: column;
+}
+.form-wrapp label {
+  font-weight: bold;
+  font-family: "Alkatra";
+}
+
+.form-wrapp input {
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  width: 15rem;
+  padding: 5px;
+  margin: 20px;
+}
+.logo {
+  font-size: 40px;
+  font-weight: 100;
+  font-family: "Alkatra", cursive;
+  color: #1f1235;
+}
+
+.login-btn {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30vh;
+  height: 37px;
+  border-radius: 10px;
+  border: 1px solid #d9d9d9;
+  background-color: #ff6e6c;
+  color: #1f1235;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.err {
+  font-size: small;
+  font-family: "Alkatra", cursive;
+}
+
+.bottom-text {
+  font-size: small;
+  font-family: "Alkatra", cursive;
+}
+
+.login-link {
+  text-decoration: none;
+}

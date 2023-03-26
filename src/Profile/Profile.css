@@ -1,0 +1,241 @@
+.profile-page {
+  /* border: 1px solid; */
+  margin: 65px 0 0 0;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.profile-container {
+  /* border: 1px solid palegreen; */
+  padding: 10px;
+  margin: 5px;
+  height: 80vh;
+  width: 170vh;
+  display: flex;
+
+  flex-direction: column;
+}
+
+.top-bar {
+  border: 1px solid lightgrey;
+  height: 10rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.timeline {
+  background-color: #67568c;
+  border-radius: 10px 10px 0 0;
+  height: 7rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.user-name {
+  /* border: 1px solid; */
+  color: #ffffff;
+  width: 10rem;
+  height: 4rem;
+  margin-left: 200px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: "Alkatra", cursive;
+  font-weight: 400;
+}
+
+.profile-avatar {
+  border: 5px solid white;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -40px;
+  margin-bottom: -40px;
+  margin-left: 50px;
+  position: relative;
+}
+
+.profile-avatar img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.link-container {
+  border: 1px solid lightgrey;
+  height: 3rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-links {
+  margin: 100px;
+  width: 25rem;
+}
+
+.chat-btn-container button {
+  border: none;
+  background-color: #ffffff;
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs button {
+  font-weight: 400;
+  font-family: "Alkatra";
+  font-size: 15px;
+}
+.tab {
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  padding: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+/* .tab:not(:last-child) {
+  border-right: 1px solid #ff6e6c;
+} */
+.tab.active {
+  font-weight: bold;
+
+  border-bottom: 5px solid #ff6e6c;
+}
+.message-btn {
+  border: 1px solid;
+
+  width: 5rem;
+}
+
+.profile-content {
+  display: none;
+  margin-top: 10px;
+  height: 20rem;
+  padding-top: 15px;
+  transition: 0.5s ease-in;
+}
+.profile-content.active {
+  display: block;
+}
+
+.about-tab {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.about-card {
+  border: 1px solid lightgray;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  width: 15rem;
+  padding: 10px;
+  height: fit-content;
+  font-family: "Alkatra", cursive;
+  font-weight: 200;
+}
+.about-card h2 {
+  font-size: larger;
+}
+.about-card p {
+  font-size: smaller;
+  color: rgb(62, 62, 62);
+}
+.bio-card {
+  border: 1px solid lightgray;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  width: 25rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  font-family: "Alkatra", cursive;
+}
+.bio-card h2 {
+  font-size: larger;
+}
+
+.bio-card p {
+  font-size: smaller;
+  color: rgb(62, 62, 62);
+}
+
+@media only screen and (max-width: 425px) {
+  .profile-page {
+    /* border: 1px solid; */
+    margin: 45px 0 0 0;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .profile-container {
+    /* border: 1px solid palegreen; */
+    padding: 10px;
+    margin: 5px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+
+    flex-direction: column;
+  }
+
+  .top-bar {
+    height: 8rem;
+  }
+
+  .timeline {
+    height: 6rem;
+  }
+
+  .profile-avatar {
+    width: 60px;
+    height: 60px;
+    margin-top: -30px;
+    margin-bottom: -30px;
+    margin-left: 20px;
+  }
+
+  .user-name {
+    margin-left: 100px;
+    margin-bottom: 0.75rem;
+    height: 3rem;
+    font-size: small;
+  }
+
+  .link-container {
+    border: none;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.25rem;
+  }
+
+  .profile-links {
+    /* border: 1px solid; */
+    padding: 0;
+    margin: 0;
+    width: 15rem;
+    display: flex;
+    justify-content: end;
+  }
+
+  .tabs {
+    margin-top: 5px;
+    width: 10rem;
+  }
+
+  .tabs button {
+    font-size: 10px;
+  }
+}

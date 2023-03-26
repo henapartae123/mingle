@@ -1,0 +1,321 @@
+.setup {
+  /* border: 1px solid; */
+  width: 100%;
+  margin-top: 20px;
+}
+.container {
+  /* border: 1px solid; */
+  margin-inline: 2rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  column-gap: 3rem;
+}
+
+.left-side {
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+}
+.right-side {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.bio-box {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.avatar-side {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.avatar-side span {
+  padding: 1rem;
+}
+.bio-avatar {
+  width: 5rem;
+  height: 5rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+}
+
+.basic-info {
+  /* border: 1px solid; */
+  display: flex;
+  width: 10rem;
+
+  flex-direction: column;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.basic-info {
+  font-weight: 200;
+  font-family: "Times New Roman", Times, serif;
+  font-size: medium;
+}
+
+.basic-info .name {
+  font-family: "Alkatra", cursive;
+  font-size: larger;
+  font-weight: 500;
+}
+
+.bio-btn {
+  /* border: 1px solid; */
+  padding: 0.25rem;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: last baseline;
+}
+.edit-pen {
+  border: 1px solid lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+.edit-pen img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.bio {
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.bio-container {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+}
+
+.semi-title {
+  font-family: "Alkatra", cursive;
+  margin: 0.5rem;
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.bio-text {
+  border: 1px solid lightblue;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 10px;
+  width: 17rem;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+.edit-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.edit-btn {
+  border: 1px solid lightcoral;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+}
+.edit-btn img {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.gallery {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: auto;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+.right-side .basic {
+  border: 1px solid;
+  height: fit-content;
+}
+
+.right-side .lifestyle {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: fit-content;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+
+.lifestyle li {
+  font-family: "Times New Roman", Times, serif;
+  list-style: none;
+}
+
+.right-side .personality {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: fit-content;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.25);
+}
+.dets {
+  display: inline;
+  font-family: "Alkatra";
+}
+
+.personality li {
+  font-family: "Times New Roman", Times, serif;
+  list-style: none;
+}
+.bio-edit {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.persona-edit {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+
+.edit-modal-content {
+  background-color: #fefefe;
+  border-radius: 10px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: fit-content;
+}
+
+.edit-modal-content fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.persona-edit .edit-modal-content fieldset {
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.persona-edit .edit-modal-content {
+  width: 60%;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  width: 15rem;
+  padding: 5px;
+}
+label {
+  font-weight: bold;
+  font-family: "Alkatra";
+}
+
+select {
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  width: 15rem;
+  padding: 5px;
+}
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 425px) {
+  .setup {
+    border: 1px solid;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+    overflow-y: scroll;
+  }
+  .container {
+    /* border: 1px solid; */
+    margin-inline: 0.25rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+  }
+
+  .left-side {
+    width: 17rem;
+  }
+  .right-side {
+    width: 17rem;
+  }
+
+  .bio-avatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+  }
+
+  .bio-text {
+    width: 13rem;
+  }
+}
