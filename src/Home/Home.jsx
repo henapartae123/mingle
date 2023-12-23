@@ -49,7 +49,7 @@ const Home = ({ search, setSearch }) => {
               </div>
 
               <div className="dropdown-links">
-                <Link to={"/setup"}>setup</Link>
+                <Link to={"/setup"}>Setup</Link>
                 <Link onClick={() => signOut(auth)}>logout</Link>
               </div>
             </div>

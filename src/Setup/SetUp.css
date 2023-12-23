@@ -246,7 +246,6 @@
 }
 
 .right {
-  border: 1px solid;
   display: flex;
   flex-direction: column;
   width: 100%;

@@ -47,6 +47,9 @@ const Login = () => {
             Register
           </Link>
         </span>
+
+        <span className="bottom-text">Test Email: johndoe@gmail.com</span>
+        <span className="bottom-text">Test Password: 123456789</span>
       </div>
     </div>
   );
